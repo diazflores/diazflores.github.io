@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactivo | Presentación Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="presentation-container" id="presentation">
+        <!-- Decoraciones de fondo -->
+        <div class="bg-decoration bg-circle-1"></div>
+        <div class="bg-decoration bg-circle-2"></div>
+        <div class="bg-decoration bg-circle-3"></div>
+        <div class="bg-dots"></div>
+
+        <!-- Slides wrapper -->
+        <div class="slides-wrapper" id="slidesWrapper">
+            <!-- Slide 0: Portada -->
+            <div class="slide active" data-index="0">
+                <div class="slide-content portada-content">
+                    <div class="avatar-circle anim-item anim-delay-1">
+                        <img src="img/perfil.png" alt="JOAN DIAZ FLORES">
+                    </div>
+                    <div class="portada-text">
+                        <p class="slide-label anim-item anim-delay-2">Perfil profesional</p>
+                        <h1 class="anim-item anim-delay-3"><i class="bi bi-person-badge"></i> Jan Diaz Flores</h1>
+                        <p class="cargo anim-item anim-delay-4">Estudiante de Ingeniería de Software con IA</p>
+                        <p class="tagline anim-item anim-delay-5">"Apasionado por buscar soluciones de sistemas de manera innovadora."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 1: Sobre mí -->
+            <div class="slide" data-index="1">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Sobre mí</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-stars"></i> Perfil profesional</h2>
+                    <div class="flex-row anim-item anim-delay-3">
+                        <div class="avatar-circle avatar-sm">
+                            <img src="img/perfil.png" alt="joan">
+                        </div>
+                        <p class="slide-text">
+                            Actualmente cursando el último año de carrera. Me especializo en el <span class="highlight">desarrollo frontend</span> y la arquitectura de sistemas. Mi objetivo es aplicar mis conocimientos en diseño de software  mientras continúo aprendiendo de los mejores en la industria.
+                        </p>
+                    </div>
+                    <div class="philosophy-box anim-item anim-delay-4">
+                        <p><i class="bi bi-target"></i> "Mi objetivo es aprender mas de la tecnologia para poder crear soluciones innovadoras."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Especialidades (NUEVA) -->
+            <div class="slide" data-index="2">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Áreas de Interés</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-book"></i> Enfoque Académico</h2>
+                    <div class="services-grid">
+                        <div class="service-card anim-item anim-delay-3">
+                            <div class="service-icon"><i class="bi bi-laptop"></i></div>
+                            <h3>Desarrollo Web</h3>
+                            <p>Creación de aplicaciones modernas utilizando tecnologías de vanguardia como React, Node.js y flutter. </p>
+                            <p>cada dia salen nuevas tecnologias que quiero aprender y adptarme a ellas.</p>
+                        </div>
+                        <div class="service-card anim-item anim-delay-4">
+                            <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h3>Ciencia de Datos</h3>
+                            <p>Quisiera aprender sobre el mundo de la ciencia de datos, tengo conocimientos basicos en el tema pero quiero aprender mas.</p>
+                            <p>Tengo la meta de aprender a manejar datos de manera eficiente.</p>
+                        </div>
+                        <div class="service-card anim-item anim-delay-5">
+                            <div class="service-icon"><i class="bi bi-translate"></i></div>
+                            <h3>lenguas estranjeras</h3>
+                            <p>quisisera aprender inglés de mejor manera lo ago de manera autodidagta pero no soy muy bueno en eso.</p>
+                            <p>tengo la meta de aprender quisas cambiando los metos de aprendisaje.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Experiencia -->
+            <div class="slide" data-index="3">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Proyectos Académicos</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-rocket-takeoff"></i> Experiencia Práctica</h2>
+                    <div class="timeline anim-item anim-delay-3">
+                        <div class="timeline-item">
+                            <span class="timeline-date">Proyecto de instiucionales</span>
+                            <p class="timeline-title"><i class="bi bi-link-45deg"></i> Sistema de para la conexion de apis con react</p>
+                            <p class="timeline-desc">Desarrollamos en clase un proyecto para la conexion con apis externas publicas</p>
+                            <p class="timeline-desc">posteriormente nos tuvimos que hacerlo de manera propia manejando cada uno su logica.</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-4">
+                            <span class="timeline-date">Modificación un sistema de ahorro escolar</span>
+                            <p class="timeline-title"><i class="bi bi-bank"></i> Banco premium college</p>
+                            <p class="timeline-desc">Modificamos el sistema de ahorro escolar para que fuera mas eficiente y facil de usar</p>
+                            <p class="timeline-desc">el proyecto se realizo con php y usando librias externas, para un mejor manejo de la informacion.</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-5">
+                            <span class="timeline-date">Mejoramiento de sistema para canal en vivo</span>
+                            <p class="timeline-title"><i class="bi bi-play-btn"></i> Mejorar el Premium go</p>
+                            <p class="timeline-desc">Mejoramos el sistema de canal en vivo para que fuera mas eficiente y facil de usar</p>
+                            <p class="timeline-desc">el proyecto se realizo con fluter usando el lenguaje dart se realizo mayormente para que el usuarios tenga una mejor experiencia.</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-6">
+                            <span class="timeline-date">Manejo de una BD</span>
+                            <p class="timeline-title"><i class="bi bi-database"></i> Pudimos manejar y ver una BD estructurada</p>
+                            <p class="timeline-desc">tuvvimos la oportunidad de manejar una BD y verla estructurada, ver como funcionaba su sitema </p>
+                            <p class="timeline-desc">en un sistema ya estructurado y como unciona un sistema con clientes reales para una entidad educativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Educación -->
+            <div class="slide" data-index="4">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Formación</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-mortarboard"></i> Educación </h2>
+                    <div class="timeline anim-item anim-delay-3">
+                        <div class="timeline-item">
+                            <span class="timeline-date">2023</span>
+                            <p class="timeline-title"><i class="bi bi-building"></i> 5to de segundaria</p>
+                            <p class="timeline-desc">Año en el que culmine mis estudios en la institucion educativa La Victoria</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">2024</span>
+                            <p class="timeline-title"><i class="bi bi-cpu"></i> Comienzo en Ingeniería de Software con IA</p>
+                            <p class="timeline-desc">comenze la carrera de ingenieria de sotware con inteligencia artificial en el Instituto Tecnologico Senati</p>
+                            <p class="timeline-desc">Bimestre academico - 1 de 2024</p>
+                            <p class="timeline-desc">Bimestre academico - 2 de 2024</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-4">
+                            <span class="timeline-date">2025</span>
+                            <p class="timeline-title"><i class="bi bi-journal-code"></i> continuacion de Ingeniería de Software con IA</p>
+                            <p class="timeline-desc">Continue aprendiendo a mi propio tiempo en el Instituto Tecnologico Senati con la diferencia de paracticas en empresa</p>
+                            <p class="timeline-desc">Bimestre academico - 1 de 2025</p>
+                            <p class="timeline-desc">Bimestre academico - 2 de 2025</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-5">
+                            <span class="timeline-date">En 2026</span>
+                            <p class="timeline-title"><i class="bi bi-mortarboard-fill"></i> Etapa actual academica</p>
+                            <p class="timeline-desc">estoy conticuando con mis estudios con mis practicas en empresa en el Instituto Tecnologico Senati</p>
+                            <p class="timeline-desc">Bimestre academico - 1 de 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Habilidades -->
+            <div class="slide" data-index="5" id="skillsSlide">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Habilidades</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-tools"></i> Conjunto de habilidades Personales</h2>
+                    <div class="skills-layout anim-item anim-delay-3">
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-code-slash"></i> JavaScript </span><span class="skill-percent">40%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="40"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-terminal"></i> Python</span><span class="skill-percent">38%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="38"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-database-fill-gear"></i> SQL </span><span class="skill-percent">56%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="56"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-lightbulb"></i> Penzamiento de diseño</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-github"></i> Git / GitHub</span><span class="skill-percent">55%</div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="55"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-people"></i> Trabajo en equipo</span><span class="skill-percent">88%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-chat-left-text"></i> Comunicación</span><span class="skill-percent">75%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span><i class="bi bi-puzzle"></i> Resolución de problemas</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Proyectos -->
+            <div class="slide" data-index="6">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Portafolio</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-code-square"></i> Proyectos Destacados</h2>
+                    <div class="projects-grid anim-item anim-delay-3">
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=400&h=250&auto=format&fit=crop" alt="Backend" class="project-img">
+                            <div class="project-tags"><span>MySQL</span><span>PHP</span></div>
+                            <h4>Sistema de Ahorro Escolar</h4>
+                            <p>Optimización de base de datos para el proyecto "Banco Premium College" usando librerías de reportes.</p>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=400&h=250&auto=format&fit=crop" alt="React" class="project-img">
+                            <div class="project-tags"><span>React</span><span>API Rest</span></div>
+                            <h4>Consumidor de APIs</h4>
+                            <p>Aplicación interactiva que conecta y visualiza datos de servicios externos públicos con lógica personalizada.</p>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=400&h=250&auto=format&fit=crop" alt="Python" class="project-img">
+                            <div class="project-tags"><span>Python</span><span>IA</span></div>
+                            <h4>Cepre - proyecto de manejo de inscripciones</h4>
+                            <p>Proyecto pequño de incripciones para una cpre usando php, js, css y mysql</p>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=400&h=250&auto=format&fit=crop" alt="Flutter" class="project-img">
+                            <div class="project-tags"><span>php</span><span>MySQL</span></div>
+                            <h4>Interfaz de Canal en Vivo</h4>
+                            <p>Mejora de UX/UI para la aplicación móvil "Premium Go", logrando una navegación más fluida.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Certificaciones -->
+            <div class="slide" data-index="7">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Reconocimientos</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-award-fill"></i> Fortalezas Personales</h2>
+                    <div class="timeline anim-item anim-delay-3">
+                        <div class="timeline-item">
+                            <span class="timeline-date">2025 - 2026 - SENATI</span>
+                            <p class="timeline-title"><i class="bi bi-patch-check"></i> Trabajo en equipo</p>
+                            <p class="timeline-desc">Aprendi a ser mejor en el trabajo en equi y a densencolverme de mejor manera.</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-4">
+                            <span class="timeline-date">Cisco Academy</span>
+                            <p class="timeline-title"><i class="bi bi-journal-text"></i> Certificados online</p>
+                            <p class="timeline-desc">Lograr un sertificado oline de cisco acdemy por aber culminado un curso gratuito.</p>
+                        </div>
+                        <div class="timeline-item anim-item anim-delay-5">
+                            <span class="timeline-date">Actualidad</span>
+                            <p class="timeline-title"><i class="bi bi-shield-check"></i> Mejor aprendisaje en proyectos grupales</p>
+                            <p class="timeline-desc"> Aprendije a trabajar en equipos para el desarrollo de sofware para mejora la experiencia del usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Idiomas & Voluntariado -->
+            <div class="slide" data-index="8">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Complementarios</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-plus-circle"></i> Complementarios</h2>
+                    <div class="services-grid">
+                        <div class="service-card anim-item anim-delay-3">
+                            <div class="service-icon"><i class="bi bi-globe"></i></div>
+                            <h3><i class="bi bi-chat-quote"></i> Idiomas</h3>
+                            <p><strong>Inglés:</strong> Nivel A1 (basico)<br><strong>Español:</strong> Nivel Desente (lengua materna)</p>
+                        </div>
+                        <div class="service-card anim-item anim-delay-4">
+                            <div class="service-icon"><i class="bi bi-heart-fill"></i></div>
+                            <h3><i class="bi bi-people-fill"></i> Voluntariado</h3>
+                            <p>Trato de apllar a todo aquel que me pida apollo en caso de que yo tenga conosimiento del tema a tratar.</p>
+                        </div>
+                        <div class="service-card anim-item anim-delay-5">
+                            <div class="service-icon"><i class="bi bi-trophy"></i></div>
+                            <h3>Intereses</h3>
+                            <p>creacion de proyectos web y apps para mejorar mi experiencia profesional y personal en el mundo laboral.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Contacto -->
+            <div class="slide" data-index="9">
+                <div class="slide-content">
+                    <p class="slide-label anim-item anim-delay-1">Contacto</p>
+                    <h2 class="slide-title anim-item anim-delay-2"><i class="bi bi-send"></i> Hablemos</h2>
+                    <p class="slide-text anim-item anim-delay-3" style="margin-bottom:20px;">
+                        Estoy abierto a nuevas oportunidades. Puedes contactarme a través de:
+                    </p>
+                    <div class="contact-grid anim-item anim-delay-4">
+                        <a href="mailto:diazfloresjoan06@gmail.com" class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-envelope"></i></span> diazfloresjoan06@gmail.com
+                        </a>
+                        <a href="#" class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-linkedin"></i></span> https://www.linkedin.com/in/joan-diaz-flores-a4a40736a/
+                        </a>
+                        <a href="#" class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-whatsapp"></i></span> +51 930 968 774
+                        </a>
+                        <a href="#" class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-globe2"></i></span> pancito-rancio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de navegación -->
+        <div class="nav-bar">
+            <button type="button" class="nav-btn" id="prevBtn" title="Anterior"><i class="bi bi-chevron-left"></i></button>
+            <div class="dots-container" id="dotsContainer"></div>
+            <span class="slide-counter" id="slideCounter">1 / 10</span>
+            <button type="button" class="nav-btn" id="nextBtn" title="Siguiente"><i class="bi bi-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>     
